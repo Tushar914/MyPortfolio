@@ -1,0 +1,45 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Playfair Display', sans-serif; */
+    font-weight: 800;
+}
+
+body {
+    background: url("/images/backgrounds/Background_1.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.column.is-1-5 {
+    flex: none;
+    width: 10%
+}
+
+.text-centered {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image:hover {
+    transition: .2s ease;
+    transform: scale(1.1);
+}
+
+.image:hover .text-centered {
+    opacity: 1;
+}
+
+.whitespace-text {
+    color: #F7D000;
+    white-space: pre;
+    text-shadow: 0px 0px 12px #F7D000;
+}
