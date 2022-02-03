@@ -4,6 +4,22 @@
     font-weight: 800;
 }
 
+#unity {
+    background-color: #0096e662;
+}
+
+#blender {
+    background-color: #8c7ae659;
+}
+
+#python {
+    background-color: #45bd3267;
+}
+
+#web {
+    background-color: #40749e60;
+}
+
 body {
     background: url("images/backgrounds/Background_1.png") no-repeat center center fixed;
     -webkit-background-size: cover;
